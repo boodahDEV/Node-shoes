@@ -1,0 +1,22 @@
+<%- include ('partials/header') %>
+
+<div class="col-md-4 offset-md-4">
+    <h2 class="text-center">
+        Write a New Entry
+    </h2>
+
+    <form method="POST">
+        <div class="form-group">
+            <label for="title" >Title</label>
+            <input type="text" name="title" id="title" class="form-control" placeholder="Entry a New Title" required>
+        </div>
+        <div class="form-group">
+            <textarea name="body" id="body" rows="3" class="form-control" required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Post Entry" class="form-control btn btn-info">
+        </div>
+    </form>
+</div>
+
+<%- include ('partials/footer') %>
