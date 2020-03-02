@@ -1,0 +1,24 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/farauz/sendemail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/farauz/sendemail/issues"
+  },
+  "homepage": "https://gitlab.com/farauz/sendemail#readme",
+  "dependencies": {
+    "nodemailer": "^4.7.0",
+    "nodemon": "^2.0.2"
+  }
+}
