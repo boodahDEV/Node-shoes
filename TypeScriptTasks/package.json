@@ -1,0 +1,21 @@
+{
+  "name": "TypeScriptTasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "boodah",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/lowdb": "^1.0.9",
+    "typescript": "^3.8.3"
+  }
+}
